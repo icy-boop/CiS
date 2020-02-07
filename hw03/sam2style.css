@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+    background-color: #BB8889;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+
+/* Create three equal columns that floats next to each other */
+.sidebar {
+	background-color: lightcoral;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #A6282A;
+    padding: 10px;
+    text-align: center;
+    height: 200px;
+}
+.main {
+    float: left;
+    width: 66.67%;
+    padding: 10px;
+    height: 300px;
+    background-color: #C25658;
+}
+tbody tr td {
+
+
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .sidebar {
+    width: 100%;
+	}
+	  .main {
+		  width: 100%;
+	  }
+  
+}
