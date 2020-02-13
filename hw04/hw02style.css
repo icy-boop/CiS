@@ -61,3 +61,6 @@ table {
 .align-right {
 	text-align:right;
 }
+table {
+	width: 80%;
+}
