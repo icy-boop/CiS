@@ -1,0 +1,63 @@
+body {background-color: lightgoldenrodyellow;
+	text-align: center;}
+	h2,h3{color:lightpink}
+	p {color:palevioletred}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: palevioletred;
+    border-color: pink;
+    padding-bottom: 0px;
+}
+header {
+    background-color: #666;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-left: 12px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+#wrapper{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	}
+footer {
+    background-color: #9BC1C2;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    padding-top: 8px;
+    margin-top: 10px;
+}
+table {
+	
+}#row-1 {
+	background:#ff0000;
+}
+#row-2 {
+	background:#ef6b00;
+}
+#row-3 {
+	background:#FFD700;
+}
+#row-4 {
+	background:#008000;
+}
+#row-5 {
+	background:#00BFFF;
+}
+#row-6 {
+	background:#0000FF;
+}
+#row-7 {
+	background:#9400D3;
+}
+
+.align-left {
+	text-align:left;
+}
+.align-right {
+	text-align:right;
+}
