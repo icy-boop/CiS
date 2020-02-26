@@ -25,8 +25,6 @@ header {
 .content{
     width: 100%;
 	background-color: yellow;
-	padding-left: 1em;
-	padding-right: 1em;
 }
 .header{
 	height: 150px;
