@@ -47,6 +47,8 @@ body {
     min-height: 600px;
     opacity: 1;
     font-style: normal;
+	display: inline-block;
+	position: relative;
 }
 .footer {
     background-color: #4A5253;
