@@ -15,7 +15,6 @@ body {
 
 .header {
 	background-color: #4A5253;
-
 	height: 150px;
 	background-size: 20% 100%;
 	background-repeat: no-repeat;
@@ -29,7 +28,7 @@ body {
     position: relative;
 }
 .main {
-    background-color: #344141;
+    background-color: #ffffff;
     position: absolute;
 	width:  80%;
     top: 0px;
@@ -40,7 +39,7 @@ body {
 	border-left:1px solid #000000;
 }
 .sidebar {
-    background-color: #5C7172;
+    background-color: #ffffff;
     width: 20%;
     margin-left: 0%;
     padding: 1em;
@@ -58,13 +57,13 @@ body {
 	color:#5C7172;
 }
 #wrapper {
-	width: auto;
-	margin-right: auto;
-	margin-left: auto;
+	width: 75%;
+	margin: auto;
 	min-width: 1000px;
 	max-height:1280px;
-  border-radius: 10px;
-  box-shadow: 5px 5px #494E55;
+
+	border-radius: 10px;
+	box-shadow: 5px 5px #494E55;
 }
 h2{
 color:#206196;
@@ -78,7 +77,7 @@ h1{
 }
 .dropbtn {
   background-color: #3498DB;
-  color: white;
+  color: black;
   padding: 016px;
   font-size: 16px;
 
@@ -96,6 +95,7 @@ h1{
   min-width: 160px;
   bottom: 50px;
   z-index: 1;
+
 }
 
 .dropup-content a {
@@ -109,9 +109,12 @@ h1{
 
 .dropup:hover .dropup-content {
   display: block;
+
 }
 
 .dropup:hover .dropbtn {
   background-color: #2980B9;
 }
-
+.dropup-content ul {
+list-style-type: none;
+}
