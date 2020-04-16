@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-	background-image: url(grey2.jpeg);
+	background-image: url("grey1.jpeg");
 	background-repeat: no-repeat;
     background-color: light gray;
 	font-family: Verdana, Geneva, sans-serif;
