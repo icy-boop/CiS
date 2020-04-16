@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+}
+body {
+	background-image: url(grey2.jpeg);
+	background-repeat: no-repeat;
+    background-color: light gray;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.page {
+    margin: 3px auto 3px auto;
+	max-width:900px;
+	min-width:400px;
+    width: 80%;
+
+}
+section ul{
+	list-style-type: none;
+	text-align: center;
+	color:#206196;
+}
+#wrapper {
+	width: 100%;
+	margin: auto;
+	max-height:900px;
+}
+h3{
+color:#206196;
+text-align: center;
+}
+h1{
+	text-align: center;
+	color:#5992C2;
+	font-family: Arial, Geneva, sans-serif;
+}
