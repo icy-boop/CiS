@@ -1,9 +1,10 @@
 *{
   box-sizing: border-box;
 }
+body{
 	background-image: url("../images.git/grey2.jpg");
 	background-repeat: no-repeat;
-    background-color: #5E5757;
+    	background-color: #5E5757;
 	font-family: Verdana, Geneva, sans-serif;
 }
 .page {
