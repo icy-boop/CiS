@@ -1,8 +1,7 @@
 *{
   box-sizing: border-box;
 }
-body {
-	background-image: url("grey1.jpeg");
+	background-image: url("../images.git/grey2.jpeg");
 	background-repeat: no-repeat;
     background-color: #5E5757;
 	font-family: Verdana, Geneva, sans-serif;
