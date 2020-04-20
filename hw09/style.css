@@ -48,17 +48,17 @@ h1{
 }
 @media screen and (max-width: 1099px){
   div.third {
-    font-size: 50px;
-    padding: 50px;
-    border: 8px solid black;
+    font-size: 30px;
+    padding: 10px;
+    border: 4px solid black;
     background: green;
   }
 }
 @media screen and (max-width: 600px){
   div.second {
-    font-size: 50px;
-    padding: 50px;
-    border: 8px solid black;
+    font-size: 40px;
+    padding: 30px;
+    border: 6px solid black;
     background: yellow;
   }
 }
