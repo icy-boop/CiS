@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+}
+body {
+	background-image: url("../images.git/grey.jpg");
+	background-repeat: no-repeat;
+    background-color: light gray;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.page {
+    margin: 3px auto 3px auto;
+	max-width:900px;
+	min-width:400px;
+    width: 80%;
+
+}
+section ul{
+	list-style-type: none;
+	text-align: center;
+	color:#206196;
+}
+#wrapper {
+	width: 100%;
+	margin: auto;
+	max-height:900px;
+}
+h3{
+color:#206196;
+text-align: center;
+}
+h1{
+	text-align: center;
+	color:#5992C2;
+	font-family: Arial, Geneva, sans-serif;
+}
+/* and (min-width: 600px), (min-width: 1100px) */
+.paints:hover img{ 
+	border-radius: 10%;
+	filter: hue-rotate(130deg) saturate(130%);
+	transition: all 1000ms ease;
+	transform: rotate(0.2turn) translate(100px) rotate(0.2turn);
+}
+.painting:hover img{ 
+	border-radius: 10%; 
+	filter: hue-rotate(150deg) saturate(150%);
+	transition: all 1000ms ease;
+	transform: rotate(0.2turn) translate(100px) rotate(-0.2turn);
+}
+@media screen and (max-width: 1099px){
+  div.third {
+    font-size: 50px;
+    padding: 50px;
+    border: 8px solid black;
+    background: green;
+  }
+}
+@media screen and (max-width: 600px){
+  div.second {
+    font-size: 50px;
+    padding: 50px;
+    border: 8px solid black;
+    background: yellow;
+  }
+}
+@media screen and (min-width: 1100px){
+  div.first {
+    font-size: 50px;
+    padding: 50px;
+    border: 8px solid black;
+    background: red;
+  }
+}
