@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+}
+body {
+	background-image: url(grey2.jpg);
+    background-color: light gray;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.page {
+    margin: 3px auto 3px auto;
+	max-width:900px;
+	min-width:400px;
+    width: 80%;
+
+}
+section ul{
+	list-style-type: none;
+	text-align: center;
+	color:#206196;
+}
+#wrapper {
+	width: 100%;
+	margin: auto;
+	max-height:900px;
+}
+h3{
+color:#206196;
+text-align: center;
+}
+h1{
+	text-align: center;
+	color:#5992C2;
+	font-family: Arial, Geneva, sans-serif;
+}
+#wrapper footer {
+	background-color: rgb(171, 171, 171);
+	font-family: source-sans-pro, sans-serif;
+	font-weight: 200;
+	line-height: 1.8;
+	padding-top: 2px;
+	padding-left: 2px;
+	text-align: center;
+	padding-bottom: 2px;
+	padding-right: 2px;
+}
